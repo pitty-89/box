@@ -1,0 +1,21 @@
+<?php
+$MESS['ORDER_TYPE_DIGITIZATION'] = 'Оцифровка';
+$MESS['ORDER_TYPE_DELIVERY'] = 'Временный вывоз со склада';
+$MESS['ORDER_TYPE_RECEPTION_OF_UNITS'] = 'Возврат на склад';
+$MESS['ORDER_TYPE_DESTRUCTION'] = 'Заявка на уничтожение';
+$MESS['ORDER_TYPE_ARBITRARILY'] = 'Произвольно';
+$MESS['CREATE_NEW_ORDER'] = 'Создать новый заказ: ';
+$MESS['ADD_TO_ORDER'] = 'Добавить к заказу: ';
+$MESS['EMPTY'] = ' - ';
+$MESS['APPLY'] = 'Применить';
+$MESS['ERROR'] = 'Ошибка!';
+$MESS['ERROR_FEW_CONTRACTS'] = 'Вы не можете сформировать заказ включающий в себя несколько договоров';
+$MESS['ERROR_CURENT_STATUS'] = 'Статус выбранного элемента не позволяет добавить к заказу ЕУ';
+$MESS['ERROR_EXIST_STATUS_UNIT'] = 'Статус одной из выбранных ЕУ не позволяет создать заказ';
+$MESS['ERROR_FORMING_ORDER'] = 'Создать заказ или добавить в формирующийся невозможно. Попробуйте сбросить полностью все выделенные ЕУ';
+$MESS['BUTTON_RESET'] = 'Сбросить все выделенные ЕУ';
+$MESS['SUCCESS_ADD_UNITS_1'] = 'Успешно! Закончить формирование вы сможете на ';
+//$MESS['SUCCESS_ADD_UNITS_2'] = 'странице создания заказа';
+$MESS['SUCCESS_ADD_UNITS_2'] = 'странице списков заказов';
+$MESS['SHOW_ONLY_SELECTED_UNITS'] = ' Показать только выделенные элементы ';
+$MESS['SHOW_ALL_UNITS'] = ' Показать все элементы ';

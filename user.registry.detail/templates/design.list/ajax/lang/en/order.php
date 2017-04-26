@@ -1,0 +1,20 @@
+<?php
+$MESS['ORDER_TYPE_DIGITIZATION'] = 'Digitization';
+$MESS['ORDER_TYPE_DELIVERY'] = 'Temporary export from stock';
+$MESS['ORDER_TYPE_RECEPTION_OF_UNITS'] = 'Return to stock';
+$MESS['ORDER_TYPE_DESTRUCTION'] = 'Ticket on destruction';
+$MESS['ORDER_TYPE_ARBITRARILY'] = 'Arbitrarily';
+$MESS['CREATE_NEW_ORDER'] = 'Add to new order: ';
+$MESS['ADD_TO_ORDER'] = 'Add to order: ';
+$MESS['EMPTY'] = ' - ';
+$MESS['APPLY'] = 'Apply';
+$MESS['ERROR'] = 'Error!';
+$MESS['ERROR_FEW_CONTRACTS'] = 'You can not form an order comprising several contracts';
+$MESS['ERROR_CURENT_STATUS'] = 'The status of selected item does not allow add unit to order';
+$MESS['ERROR_EXIST_STATUS_UNIT'] = 'The status of one of previously selected units can not create order';
+$MESS['ERROR_FORMING_ORDER'] = 'Create order or add to emerging impossible. Try reset all selected units';
+$MESS['BUTTON_RESET'] = 'Reset select units';
+$MESS['SUCCESS_ADD_UNITS_1'] = 'Add unit to order was success! Finish shaping you can on ';
+$MESS['SUCCESS_ADD_UNITS_2'] = 'page of create order';
+$MESS['SHOW_ONLY_SELECTED_UNITS'] = 'Show only selected units ';
+$MESS['SHOW_ALL_UNITS'] = 'Show all units ';

@@ -1,0 +1,392 @@
+.order.order-upload {
+    /*margin-top: 10px !important;*/
+    /*margin-bottom: 10px;*/
+    width: 200px;
+}
+.order-hidden {
+    display: none;
+}
+.disabled-upload {
+    position: relative;
+}
+.disabled-upload:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 32px;
+    z-index: 2;
+    background: transparent;
+}
+.disabled-upload .btn {
+    background: #d4dbe1;
+    border-color: #d4dbe1;
+    opacity: .65;
+    cursor: default;
+}
+.js-file:before {
+    display: inline-block;
+    font: normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+.js-file[href$=".pdf"]:before {
+    content: "\f1c1";
+}
+.js-file[href$=".png"]:before,
+.js-file[href$=".jpeg"]:before,
+.js-file[href$=".jpg"]:before {
+    content: "\f1c5";
+}
+.js-file[href$=".txt"]:before {
+    content: "\f0f6";
+}
+.js-file[href$=".tar"]:before,
+.js-file[href$=".tar.gz"]:before,
+.js-file[href$=".gzip"]:before,
+.js-file[href$=".bzip2"]:before,
+.js-file[href$=".7z"]:before,
+.js-file[href$=".wim"]:before,
+.js-file[href$=".xz"]:before,
+.js-file[href$=".rar"]:before,
+.js-file[href$=".zip"]:before {
+    content: "\f1c6";
+}
+.control__tools li {
+    position: relative;
+}
+.js-option-disabled:after {
+    /*position: absolute;*/
+    /*content: '';*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: rgba(255,255,255,.5);*/
+}
+.hidden {
+    display: none;
+}
+.table.js-table {
+    font-size: 14px;
+}
+.table.js-table tr,
+.table.js-table tr td {
+    position: relative;
+}
+.table .js-file .contain-upload {
+    padding-top: 0;
+    height: 100%;
+}
+.js-td {
+    background: rgb(255,255,255);
+}
+.js-td .contain-upload a .fa {
+    color: rgb(132, 153, 168);
+}
+.form .js-checkbox-td .checkbox > span {
+    padding-left: 0;
+}
+.control.control-block {
+    margin-bottom: 10px;
+}
+.control .control__tools {
+    margin: 0 0 8px 0;
+}
+.control__tools li a {
+    background: transparent;
+}
+.control__tools li a .fa {
+    font-size: 16px;
+    color: rgb(132, 153, 168);
+}
+.control__tools li.js-option-disabled a {
+    cursor: default;
+}
+.control__tools li.js-option-disabled a .fa {
+    color: rgb(182, 203, 218);
+}
+#horizontal-right > .content__item._top {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#horizontal-right > .content__item._top > .scroll-wrapper {
+    top: 5px;
+    left: 0;
+}
+.droptrue .form__row__col {
+    margin: 0 10px 10px 0;
+}
+.pager {
+    display: inline-block;
+}
+.pager:not(:first-child) {
+    border-left: 1px solid rgb(105, 105, 106);
+    margin-left: 15px;
+    padding-left: 10px;
+}
+.js-select-order {
+    color: rgb(236, 131, 31);
+    position: relative;
+    padding: 5px 10px;
+    margin: 0;
+    text-decoration: underline;
+}
+.js-select-order:hover {
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+}
+#control-action-toggle {
+    position: relative;
+    height: 50px;
+    min-width: 350px;
+}
+#control-action-toggle .fa-3x {
+    font-size: 22px;
+    top: 20%;
+    left: 50%;
+}
+.control__actions__container.control__actions {
+    margin-left: 5px;
+}
+.control__actions__container .control__actions {
+    margin-left: 10px;
+}
+.control__actions .form__row__name {
+    height: 16px;
+}
+
+.content__item._bottom.content__item__table .scroll-wrapper {
+    top: 8px;
+}
+.table th.js-file,
+.table td.js-file,
+.js-file {
+    width: 0;
+    padding: 10px 0 8px 0;
+    overflow: hidden;
+}
+
+
+.table.js-table tr th,
+.table.js-table tr td {
+    white-space: nowrap;
+}
+.scrollbar-outer ol li a.js-file-active,
+.scrollbar-outer ol li a.js-file-active:hover,
+.js-file-active {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    cursor: default;
+}
+.control-block {
+    white-space: nowrap;
+}
+
+
+.div-table {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.div-table .btn-settings {
+    display: block;
+    margin-bottom: 10px;
+}
+.div-table .btn-settings.hidden {
+    display: none;
+}
+.div-table .list-filter-settings {
+    right: auto;
+    left: 9px;
+}
+.div-table .list-filter-settings:before,
+.div-table .list-filter-settings:after {
+    right: 31px;
+}
+.form__row__sortable .list-filter-settings {
+    right: auto;
+    left: 18px;
+}
+.form__row__sortable .list-filter-settings:before,
+.form__row__sortable .list-filter-settings:after {
+    right: 31px;
+}
+.lfs-delete {
+    font-size: 14px;
+    display: block;
+    color: rgb(255, 102, 0);
+    margin-bottom: 10px;
+}
+.lfs-delete:hover {
+    color: rgb(236, 131, 31);
+    text-decoration: none;
+}
+.list-row {
+    white-space: nowrap;
+    display: inline-block;
+}
+.list-row > li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    margin-left: -4px;
+    position: relative;
+}
+.list-row > li:first-child {
+    margin-left: 0;
+}
+.list-row > li > div {
+    padding: 10px 9px 8px 9px;
+    border-bottom: 1px solid #d4dbe1;
+    position: relative;
+    height: 18px;
+}
+.list-row > li > div:first-child {
+    background: #d4dbe1;
+    text-align: left;
+    height: 18px;
+}
+.list-row > li > div.js-file {
+    padding: 10px 0 8px 0;
+}
+.js-td._active {
+    background: #e6ebf0;
+}
+.list-row .no-active-row {
+    position: relative;
+    background: rgb(240,240,240);
+    color: rgb(190,190,190);
+}
+.list-row > li > div.min-padding,
+.min-padding {
+    padding: 4px 9px 3px 9px;
+}
+.list-row > li > div.min-padding {
+    height: 29px;
+}
+.list-row > li:not(.ui-state-disabled) > div:first-child {
+    cursor: move;
+}
+
+.list-row li a.portlet-content-toggle {
+    /*position: absolute;*/
+    /*z-index: 3;*/
+    /*top: -14px;*/
+    /*right: 10px;*/
+    transition: .3s;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 2px;
+    /*background: */
+    /*opacity: 0;*/
+}
+.list-row li.portlet {
+    border-radius: 0;
+    border: 0;
+}
+.list-row li.portlet .portlet-content-toggle {
+    color: rgb(219, 212, 225);
+}
+.list-row li:hover > a.portlet-content-toggle {
+    /*display: block;*/
+    /*opacity: 1;*/
+}
+.list-row li:hover > a.portlet-content-toggle:hover {
+    color: rgb(179, 172, 185);
+}
+.list-row > li.hidden {
+    display: none;
+}
+.list-row .ui-state-disabled {
+    opacity: 1;
+    pointer-events: all;
+}
+.list-row .portlet-placeholder {
+    width: 50px;
+    height: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.list-row .ui-sortable-helper {
+    -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .6);
+}
+.min-padding .form__field {
+    padding: 4px 8px;
+}
+.lr-checkbox .js-td.no-active-row:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+.js-td.js-file {
+    position: relative;
+    overflow: hidden;
+}
+.js-td.js-file:first-child {
+    /*padding: 10px 9px 8px 9px;*/
+}
+.js-td.js-file > div {
+    display: inline-block;
+}
+
+@keyframes widthTo {
+    0% { width: 0; }
+    100% { width: 160px; }
+}
+@keyframes widthOut {
+    0% { width: 160px; }
+    100% { width: 0; }
+}
+.js-file {
+    width: 0;
+    padding: 0;
+}
+.slow-width-to {
+    width: 160px;
+    animation: .3s widthTo linear;
+}
+.list-row > li > div.js-file.slow-width-to {
+    padding: 10px 9px 8px 9px;
+}
+.slow-width-out {
+    width: 0;
+    animation: .3s widthOut linear;
+}
+.js-td .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 9px 0;
+    height: 18px;
+    background: rgb(210,210,210);
+}
+.form__row.form__row__sortable .btn-settings {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.form__row.form__row__sortable .btn-settings.hidden {
+    display: none;
+}
+.bottom_panel .navigation {
+    margin-bottom: 30px;
+}
+#vertical .page__col._left {
+    width: 100%;
+}
+#vertical .page__col._right {
+    width: 0;
+}
